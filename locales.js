@@ -77,7 +77,7 @@ export const messages = {
       { k: 'Programación', v: 'C#.NET, VB.NET, Java (Spring Boot), Python, VBA; OpenLayers / MapLibre / Cesium, PostGIS.' },
     ],
     experience: [
-      { role: 'Programador GIS — apoyo a obra civil', org: 'INETUM', place: 'España', period: 'Dic 2024 – Actualidad',
+      { role: 'Programador GIS — apoyo a obra civil', org: 'INETUM', place: 'España', period: 'Dic 2024 – Feb 2026',
         points: ['Desarrollo de aplicaciones GIS (Spring Boot + PostGIS + OpenLayers / MapLibre / Cesium) para soporte a proyectos de ingeniería civil e infraestructura.'] },
       { role: 'Programador CAD / BIM / GIS', org: 'AYESA · SENER (Mobility)', place: 'España', period: 'Ene 2024 – Dic 2024',
         points: ['Herramientas CAD-BIM (C#.NET / VB.NET) sobre Bentley MicroStation OpenRoad / OpenRail para proyectos de carreteras y ferrocarriles.'] },
@@ -192,7 +192,7 @@ export const messages = {
       { k: 'Programming', v: 'C#.NET, VB.NET, Java (Spring Boot), Python, VBA; OpenLayers / MapLibre / Cesium, PostGIS.' },
     ],
     experience: [
-      { role: 'GIS Developer — civil-works support', org: 'INETUM', place: 'Spain', period: 'Dec 2024 – Present',
+      { role: 'GIS Developer — civil-works support', org: 'INETUM', place: 'Spain', period: 'Dec 2024 – Feb 2026',
         points: ['Development of GIS applications (Spring Boot + PostGIS + OpenLayers / MapLibre / Cesium) supporting civil-engineering and infrastructure projects.'] },
       { role: 'CAD / BIM / GIS Developer', org: 'AYESA · SENER (Mobility)', place: 'Spain', period: 'Jan 2024 – Dec 2024',
         points: ['CAD-BIM tools (C#.NET / VB.NET) on Bentley MicroStation OpenRoad / OpenRail for road and rail projects.'] },
@@ -307,7 +307,7 @@ export const messages = {
       { k: 'Programação', v: 'C#.NET, VB.NET, Java (Spring Boot), Python, VBA; OpenLayers / MapLibre / Cesium, PostGIS.' },
     ],
     experience: [
-      { role: 'Programador GIS — apoio a obra civil', org: 'INETUM', place: 'Espanha', period: 'Dez 2024 – Atual',
+      { role: 'Programador GIS — apoio a obra civil', org: 'INETUM', place: 'Espanha', period: 'Dez 2024 – Fev 2026',
         points: ['Desenvolvimento de aplicações GIS (Spring Boot + PostGIS + OpenLayers / MapLibre / Cesium) para suporte a projetos de engenharia civil e infraestrutura.'] },
       { role: 'Programador CAD / BIM / GIS', org: 'AYESA · SENER (Mobility)', place: 'Espanha', period: 'Jan 2024 – Dez 2024',
         points: ['Ferramentas CAD-BIM (C#.NET / VB.NET) em Bentley MicroStation OpenRoad / OpenRail para rodovias e ferrovias.'] },
