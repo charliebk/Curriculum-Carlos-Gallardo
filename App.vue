@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { contact } from './locales.js'
+import avatarUrl from './avatar.jpg'
 
 const { t, tm, locale } = useI18n()
 
@@ -29,7 +30,6 @@ const experience = computed(() => tm('experience'))
 const education = computed(() => tm('education'))
 const langsList = computed(() => tm('langs'))
 
-const initials = 'CG'
 </script>
 
 <template>
@@ -49,7 +49,7 @@ const initials = 'CG'
 
     <!-- Header -->
     <header class="header">
-      <div class="avatar">{{ initials }}</div>
+      <div class="avatar"><img :src="avatarUrl" :alt="t('name')" /></div>
       <div class="head-text">
         <h1>{{ t('name') }}</h1>
         <p class="title">{{ t('title') }}</p>
@@ -185,11 +185,12 @@ body {
   padding: 32px; background: linear-gradient(120deg, #1f5e8c 0%, #2b7bb0 100%); color: #fff;
 }
 .avatar {
-  flex: 0 0 auto; width: 96px; height: 96px; border-radius: 50%;
-  background: rgba(255,255,255,.16); border: 2px solid rgba(255,255,255,.5);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 36px; font-weight: 700; letter-spacing: 1px;
+  flex: 0 0 auto; width: 112px; height: 112px; border-radius: 50%;
+  background: rgba(255,255,255,.16); border: 3px solid rgba(255,255,255,.65);
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18);
 }
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .head-text h1 { font-size: 30px; line-height: 1.15; }
 .head-text .title { font-size: 17px; font-weight: 600; margin-top: 4px; }
 .head-text .subtitle { font-size: 14px; opacity: .92; margin-bottom: 8px; }
