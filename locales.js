@@ -13,8 +13,8 @@ export const contact = {
 export const messages = {
   es: {
     name: 'Carlos Gallardo Rodríguez',
-    title: 'Jefe de Topografía y Oficina Técnica',
-    subtitle: 'Especialista en Obras Lineales Ferroviarias, Hidráulica de Drenaje y Minería',
+    title: 'Desarrollador Full Stack · Especialista en IFC y GIS',
+    subtitle: 'Respaldado por +20 años en obra civil: planificación de obra, topografía y oficina técnica',
     meta: {
       citizenship: 'Doble nacionalidad española y brasileña · Residente en Brasil',
       born: 'Nacido el 01/04/1976 en Jerez de la Frontera (Cádiz), España',
@@ -128,8 +128,8 @@ export const messages = {
 
   en: {
     name: 'Carlos Gallardo Rodríguez',
-    title: 'Head of Surveying & Technical Office',
-    subtitle: 'Specialist in Linear Railway Works, Drainage Hydraulics & Mining',
+    title: 'Full Stack Developer · IFC & GIS Specialist',
+    subtitle: 'Backed by 20+ years in civil works: project planning, surveying and technical office',
     meta: {
       citizenship: 'Dual Spanish & Brazilian citizenship · Resident in Brazil',
       born: 'Born 01/04/1976 in Jerez de la Frontera (Cádiz), Spain',
@@ -243,8 +243,8 @@ export const messages = {
 
   pt: {
     name: 'Carlos Gallardo Rodríguez',
-    title: 'Chefe de Topografia e Escritório Técnico',
-    subtitle: 'Especialista em Ferrovias, Hidráulica de Drenagem e Mineração',
+    title: 'Desenvolvedor Full Stack · Especialista em IFC e GIS',
+    subtitle: 'Respaldado por +20 anos em obra civil: planejamento de obra, topografia e escritório técnico',
     meta: {
       citizenship: 'Dupla nacionalidade espanhola e brasileira · Residente no Brasil',
       born: 'Nascido em 01/04/1976 em Jerez de la Frontera (Cádiz), Espanha',
